@@ -26,7 +26,7 @@ struct LoginView: View {
                 TextField("Email", text: $viewModel.email)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .listRowSeparator(.hidden)
-                TextField("Password", text: $viewModel.password)
+                SecureField("Password", text: $viewModel.password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .listRowSeparator(.hidden)
                 TLButton(title: "Sign In", bgColor: Color.blue) {
