@@ -34,6 +34,7 @@
 		60A277EB2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EA2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift */; };
 		60A277ED2AA9EFCC008C33A0 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */; };
 		60A277EF2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */; };
+		60A277F12AAAB8C3008C33A0 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F02AAAB8C3008C33A0 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		60A277EA2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewViewModel.swift; sourceTree = "<group>"; };
 		60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListViewViewModel.swift; sourceTree = "<group>"; };
+		60A277F02AAAB8C3008C33A0 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				60A277DA2AA94804008C33A0 /* AccountView.swift */,
 				60A277E82AA9EF9B008C33A0 /* ItemsListView.swift */,
 				60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */,
+				60A277F02AAAB8C3008C33A0 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				60A277CC2AA9466E008C33A0 /* LoginView.swift in Sources */,
 				60A277D02AA946EA008C33A0 /* ItemViewViewModel.swift in Sources */,
 				60A277D52AA947AC008C33A0 /* AccountViewViewModel.swift in Sources */,
+				60A277F12AAAB8C3008C33A0 /* TLButton.swift in Sources */,
 				60A277912AA94045008C33A0 /* ContentView.swift in Sources */,
 				60A277EF2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift in Sources */,
 				60A277CE2AA94692008C33A0 /* LoginViewViewModel.swift in Sources */,
