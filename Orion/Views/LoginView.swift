@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct LoginView: View {
+    @StateObject var viewModel = LoginViewViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Sign in")
+                .fontWeight(.heavy)
+                .font(.system(size: 50))
+                .padding(.top, 100.0)
+                
+            Form {
+                Text(viewModel.errorMessage)
+                    .foregroundColor(Color.red)
+                TextField("Email", text: $viewModel.email)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                TextField("Password", text: $viewModel.password)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
+            .scrollContentBackground(.hidden)
+        }
     }
 }
 
