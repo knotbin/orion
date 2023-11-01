@@ -35,6 +35,9 @@
 		60A277ED2AA9EFCC008C33A0 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */; };
 		60A277EF2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */; };
 		60A277F12AAAB8C3008C33A0 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F02AAAB8C3008C33A0 /* TLButton.swift */; };
+		60A277F32AAB9495008C33A0 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F22AAB9495008C33A0 /* CreateAccountView.swift */; };
+		60A277F52AAB94AA008C33A0 /* CreateAccountViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F42AAB94AA008C33A0 /* CreateAccountViewViewModel.swift */; };
+		60A277F72AAB96DE008C33A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F62AAB96DE008C33A0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 		60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListViewViewModel.swift; sourceTree = "<group>"; };
 		60A277F02AAAB8C3008C33A0 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		60A277F22AAB9495008C33A0 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		60A277F42AAB94AA008C33A0 /* CreateAccountViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewViewModel.swift; sourceTree = "<group>"; };
+		60A277F62AAB96DE008C33A0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,7 @@
 				60A277E82AA9EF9B008C33A0 /* ItemsListView.swift */,
 				60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */,
 				60A277F02AAAB8C3008C33A0 /* TLButton.swift */,
+				60A277F22AAB9495008C33A0 /* CreateAccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 				60A277D42AA947AC008C33A0 /* AccountViewViewModel.swift */,
 				60A277EA2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift */,
 				60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */,
+				60A277F42AAB94AA008C33A0 /* CreateAccountViewViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -215,8 +223,9 @@
 			isa = PBXGroup;
 			children = (
 				60A277E62AA9E501008C33A0 /* GoogleService-Info.plist */,
-				60A2778E2AA94045008C33A0 /* OrionApp.swift */,
 				60A277922AA94045008C33A0 /* Assets.xcassets */,
+				60A2778E2AA94045008C33A0 /* OrionApp.swift */,
+				60A277F62AAB96DE008C33A0 /* Extensions.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -363,17 +372,20 @@
 				60A277D92AA947ED008C33A0 /* LocationView.swift in Sources */,
 				60A277E92AA9EF9B008C33A0 /* ItemsListView.swift in Sources */,
 				60A277DB2AA94804008C33A0 /* AccountView.swift in Sources */,
+				60A277F52AAB94AA008C33A0 /* CreateAccountViewViewModel.swift in Sources */,
 				60A277C62AA945B7008C33A0 /* Item.swift in Sources */,
 				60A277CC2AA9466E008C33A0 /* LoginView.swift in Sources */,
 				60A277D02AA946EA008C33A0 /* ItemViewViewModel.swift in Sources */,
 				60A277D52AA947AC008C33A0 /* AccountViewViewModel.swift in Sources */,
 				60A277F12AAAB8C3008C33A0 /* TLButton.swift in Sources */,
+				60A277F72AAB96DE008C33A0 /* Extensions.swift in Sources */,
 				60A277912AA94045008C33A0 /* ContentView.swift in Sources */,
 				60A277EF2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift in Sources */,
 				60A277CE2AA94692008C33A0 /* LoginViewViewModel.swift in Sources */,
 				60A277C82AA945C1008C33A0 /* Location.swift in Sources */,
 				60A277D72AA947E2008C33A0 /* ItemView.swift in Sources */,
 				60A2778F2AA94045008C33A0 /* OrionApp.swift in Sources */,
+				60A277F32AAB9495008C33A0 /* CreateAccountView.swift in Sources */,
 				60A277EB2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift in Sources */,
 				60A277C42AA94526008C33A0 /* User.swift in Sources */,
 				60A277D22AA946FE008C33A0 /* LocationViewViewModel.swift in Sources */,
