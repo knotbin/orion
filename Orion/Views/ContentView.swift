@@ -11,9 +11,26 @@ struct ContentView: View {
     @StateObject var viewModel = ContentViewViewModel()
     var body: some View {
         if viewModel.isSignedIn && !viewModel.currentUserID.isEmpty {
-            //tabs of itemslistview, locationslistview, and accountview
+            userView
         } else {
             LoginView()
+        }
+    }
+    @ViewBuilder
+    var userView: some View {
+        TabView {
+            ItemsListView()
+                .tabItem {
+                    Label("Items", systemImage: "briefcase.circle.fill")
+                }
+            LocationsListView()
+                .tabItem {
+                    Label("Account", systemImage: "house.circle.fill")
+                }
+            AccountView()
+                .tabItem {
+                    Label("Account", systemImage: "person.circle.fill")
+                }
         }
     }
 }
