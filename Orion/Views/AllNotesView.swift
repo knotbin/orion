@@ -15,6 +15,7 @@ struct AllNotesView: View {
             VStack {
                 
             }
+            
             .navigationTitle("Notes")
             .toolbar {
                 Button {
