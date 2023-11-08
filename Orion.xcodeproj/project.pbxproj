@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609D7E0E2AFB021B00AD4B69 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D7E0D2AFB021B00AD4B69 /* Note.swift */; };
+		609D7E102AFB022A00AD4B69 /* AllNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D7E0F2AFB022A00AD4B69 /* AllNotesView.swift */; };
+		609D7E142AFB024800AD4B69 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D7E132AFB024800AD4B69 /* NoteView.swift */; };
+		609D7E162AFB025700AD4B69 /* AllNotesViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D7E152AFB025700AD4B69 /* AllNotesViewViewModel.swift */; };
+		609D7E182AFB02A400AD4B69 /* NoteViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D7E172AFB02A400AD4B69 /* NoteViewViewModel.swift */; };
 		60A2778F2AA94045008C33A0 /* OrionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A2778E2AA94045008C33A0 /* OrionApp.swift */; };
 		60A277912AA94045008C33A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277902AA94045008C33A0 /* ContentView.swift */; };
 		60A277932AA94045008C33A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A277922AA94045008C33A0 /* Assets.xcassets */; };
@@ -18,22 +23,12 @@
 		60A277BF2AA94484008C33A0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 60A277BE2AA94484008C33A0 /* FirebaseFirestore */; };
 		60A277C12AA94484008C33A0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 60A277C02AA94484008C33A0 /* FirebaseFirestoreSwift */; };
 		60A277C42AA94526008C33A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277C32AA94526008C33A0 /* User.swift */; };
-		60A277C62AA945B7008C33A0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277C52AA945B7008C33A0 /* Item.swift */; };
-		60A277C82AA945C1008C33A0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277C72AA945C1008C33A0 /* Location.swift */; };
 		60A277CA2AA9465A008C33A0 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277C92AA9465A008C33A0 /* ContentViewViewModel.swift */; };
 		60A277CC2AA9466E008C33A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277CB2AA9466E008C33A0 /* LoginView.swift */; };
 		60A277CE2AA94692008C33A0 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277CD2AA94692008C33A0 /* LoginViewViewModel.swift */; };
-		60A277D02AA946EA008C33A0 /* ItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277CF2AA946EA008C33A0 /* ItemViewViewModel.swift */; };
-		60A277D22AA946FE008C33A0 /* LocationViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277D12AA946FE008C33A0 /* LocationViewViewModel.swift */; };
 		60A277D52AA947AC008C33A0 /* AccountViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277D42AA947AC008C33A0 /* AccountViewViewModel.swift */; };
-		60A277D72AA947E2008C33A0 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277D62AA947E2008C33A0 /* ItemView.swift */; };
-		60A277D92AA947ED008C33A0 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277D82AA947ED008C33A0 /* LocationView.swift */; };
 		60A277DB2AA94804008C33A0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277DA2AA94804008C33A0 /* AccountView.swift */; };
 		60A277E72AA9E501008C33A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60A277E62AA9E501008C33A0 /* GoogleService-Info.plist */; };
-		60A277E92AA9EF9B008C33A0 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277E82AA9EF9B008C33A0 /* ItemsListView.swift */; };
-		60A277EB2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EA2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift */; };
-		60A277ED2AA9EFCC008C33A0 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */; };
-		60A277EF2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */; };
 		60A277F12AAAB8C3008C33A0 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F02AAAB8C3008C33A0 /* TLButton.swift */; };
 		60A277F32AAB9495008C33A0 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F22AAB9495008C33A0 /* CreateAccountView.swift */; };
 		60A277F52AAB94AA008C33A0 /* CreateAccountViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A277F42AAB94AA008C33A0 /* CreateAccountViewViewModel.swift */; };
@@ -58,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		609D7E0D2AFB021B00AD4B69 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		609D7E0F2AFB022A00AD4B69 /* AllNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesView.swift; sourceTree = "<group>"; };
+		609D7E132AFB024800AD4B69 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		609D7E152AFB025700AD4B69 /* AllNotesViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesViewViewModel.swift; sourceTree = "<group>"; };
+		609D7E172AFB02A400AD4B69 /* NoteViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewViewModel.swift; sourceTree = "<group>"; };
 		60A2778B2AA94045008C33A0 /* Orion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A2778E2AA94045008C33A0 /* OrionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrionApp.swift; sourceTree = "<group>"; };
 		60A277902AA94045008C33A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,22 +70,12 @@
 		60A277AA2AA94045008C33A0 /* OrionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrionUITests.swift; sourceTree = "<group>"; };
 		60A277AC2AA94045008C33A0 /* OrionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		60A277C32AA94526008C33A0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		60A277C52AA945B7008C33A0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		60A277C72AA945C1008C33A0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		60A277C92AA9465A008C33A0 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
 		60A277CB2AA9466E008C33A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		60A277CD2AA94692008C33A0 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
-		60A277CF2AA946EA008C33A0 /* ItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewViewModel.swift; sourceTree = "<group>"; };
-		60A277D12AA946FE008C33A0 /* LocationViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewViewModel.swift; sourceTree = "<group>"; };
 		60A277D42AA947AC008C33A0 /* AccountViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewViewModel.swift; sourceTree = "<group>"; };
-		60A277D62AA947E2008C33A0 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
-		60A277D82AA947ED008C33A0 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		60A277DA2AA94804008C33A0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		60A277E62AA9E501008C33A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		60A277E82AA9EF9B008C33A0 /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
-		60A277EA2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewViewModel.swift; sourceTree = "<group>"; };
-		60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
-		60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListViewViewModel.swift; sourceTree = "<group>"; };
 		60A277F02AAAB8C3008C33A0 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		60A277F22AAB9495008C33A0 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		60A277F42AAB94AA008C33A0 /* CreateAccountViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewViewModel.swift; sourceTree = "<group>"; };
@@ -183,13 +173,11 @@
 			children = (
 				60A277902AA94045008C33A0 /* ContentView.swift */,
 				60A277CB2AA9466E008C33A0 /* LoginView.swift */,
-				60A277D62AA947E2008C33A0 /* ItemView.swift */,
-				60A277D82AA947ED008C33A0 /* LocationView.swift */,
 				60A277DA2AA94804008C33A0 /* AccountView.swift */,
-				60A277E82AA9EF9B008C33A0 /* ItemsListView.swift */,
-				60A277EC2AA9EFCC008C33A0 /* LocationsListView.swift */,
 				60A277F02AAAB8C3008C33A0 /* TLButton.swift */,
 				60A277F22AAB9495008C33A0 /* CreateAccountView.swift */,
+				609D7E0F2AFB022A00AD4B69 /* AllNotesView.swift */,
+				609D7E132AFB024800AD4B69 /* NoteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,12 +187,10 @@
 			children = (
 				60A277C92AA9465A008C33A0 /* ContentViewViewModel.swift */,
 				60A277CD2AA94692008C33A0 /* LoginViewViewModel.swift */,
-				60A277CF2AA946EA008C33A0 /* ItemViewViewModel.swift */,
-				60A277D12AA946FE008C33A0 /* LocationViewViewModel.swift */,
 				60A277D42AA947AC008C33A0 /* AccountViewViewModel.swift */,
-				60A277EA2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift */,
-				60A277EE2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift */,
 				60A277F42AAB94AA008C33A0 /* CreateAccountViewViewModel.swift */,
+				609D7E152AFB025700AD4B69 /* AllNotesViewViewModel.swift */,
+				609D7E172AFB02A400AD4B69 /* NoteViewViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -213,8 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				60A277C32AA94526008C33A0 /* User.swift */,
-				60A277C52AA945B7008C33A0 /* Item.swift */,
-				60A277C72AA945C1008C33A0 /* Location.swift */,
+				609D7E0D2AFB021B00AD4B69 /* Note.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -369,28 +354,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60A277D92AA947ED008C33A0 /* LocationView.swift in Sources */,
-				60A277E92AA9EF9B008C33A0 /* ItemsListView.swift in Sources */,
 				60A277DB2AA94804008C33A0 /* AccountView.swift in Sources */,
 				60A277F52AAB94AA008C33A0 /* CreateAccountViewViewModel.swift in Sources */,
-				60A277C62AA945B7008C33A0 /* Item.swift in Sources */,
 				60A277CC2AA9466E008C33A0 /* LoginView.swift in Sources */,
-				60A277D02AA946EA008C33A0 /* ItemViewViewModel.swift in Sources */,
 				60A277D52AA947AC008C33A0 /* AccountViewViewModel.swift in Sources */,
 				60A277F12AAAB8C3008C33A0 /* TLButton.swift in Sources */,
+				609D7E162AFB025700AD4B69 /* AllNotesViewViewModel.swift in Sources */,
+				609D7E0E2AFB021B00AD4B69 /* Note.swift in Sources */,
 				60A277F72AAB96DE008C33A0 /* Extensions.swift in Sources */,
 				60A277912AA94045008C33A0 /* ContentView.swift in Sources */,
-				60A277EF2AA9EFDE008C33A0 /* LocationsListViewViewModel.swift in Sources */,
 				60A277CE2AA94692008C33A0 /* LoginViewViewModel.swift in Sources */,
-				60A277C82AA945C1008C33A0 /* Location.swift in Sources */,
-				60A277D72AA947E2008C33A0 /* ItemView.swift in Sources */,
+				609D7E142AFB024800AD4B69 /* NoteView.swift in Sources */,
 				60A2778F2AA94045008C33A0 /* OrionApp.swift in Sources */,
+				609D7E182AFB02A400AD4B69 /* NoteViewViewModel.swift in Sources */,
 				60A277F32AAB9495008C33A0 /* CreateAccountView.swift in Sources */,
-				60A277EB2AA9EFBC008C33A0 /* ItemsListViewViewModel.swift in Sources */,
 				60A277C42AA94526008C33A0 /* User.swift in Sources */,
-				60A277D22AA946FE008C33A0 /* LocationViewViewModel.swift in Sources */,
+				609D7E102AFB022A00AD4B69 /* AllNotesView.swift in Sources */,
 				60A277CA2AA9465A008C33A0 /* ContentViewViewModel.swift in Sources */,
-				60A277ED2AA9EFCC008C33A0 /* LocationsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,13 +19,9 @@ struct ContentView: View {
     @ViewBuilder
     var userView: some View {
         TabView {
-            ItemsListView()
+            AllNotesView()
                 .tabItem {
-                    Label("Items", systemImage: "briefcase.circle.fill")
-                }
-            LocationsListView()
-                .tabItem {
-                    Label("Account", systemImage: "house.circle.fill")
+                    Label("Notes", systemImage: "paperplane.circle.fill")
                 }
             AccountView()
                 .tabItem {

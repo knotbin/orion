@@ -8,9 +8,53 @@
 import SwiftUI
 
 struct AccountView: View {
+    @StateObject var viewModel = AccountViewViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                if let user = viewModel.user {
+                    Image(systemName: "person.circle")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .foregroundColor(Color.blue)
+                        .frame(width: 125, height: 125)
+                        .padding()
+                    VStack(alignment: .center) {
+                        Text(user.name)
+                            .bold()
+                            .font(.system(size: 22))
+                            .padding()
+                        HStack {
+                            Text("Email")
+                                .bold()
+                            Text (user.email)
+                        }
+                        HStack {
+                            Text("Member since")
+                                .bold()
+                            Text("\(Date(timeIntervalSince1970: user.joined).formatted(date: .abbreviated, time: .omitted))")
+                        }
+                        Button() {
+                            viewModel.signOut()
+                        } label: {
+                            Text("Sign Out")
+                                .bold()
+                        }
+                        .tint(Color.red)
+                        .padding()
+                    }
+                } else {
+                    Text("Loading profile...")
+                }
+            }
+            .navigationTitle("Account")
+        }
+        .onAppear {
+                viewModel.fetchUser()
+            }
     }
+    
 }
 
 struct AccourntView_Previews: PreviewProvider {

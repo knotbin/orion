@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct AllNotesView: View {
+    @State var crocs = "";
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                
+            }
+            .navigationTitle("Notes")
+            .toolbar {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "square.and.pencil")
+                }
+            }
+            .padding()
+        }
+        
     }
 }
 

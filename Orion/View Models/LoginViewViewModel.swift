@@ -21,7 +21,7 @@ class LoginViewViewModel: ObservableObject {
         }
         Auth.auth().signIn(withEmail: email, password: password) { [weak self] (authResult, error) in
                 if let error = error {
-                    self?.errorMessage = "Sign-in failed, check email and password."
+                    self?.errorMessage = "Sign in failed, check email and password."
                     return
                 }
         }
